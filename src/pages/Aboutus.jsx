@@ -10,7 +10,7 @@ function Aboutus() {
   return (
     <div>
       <div
-        className="h-[70vh] bg-cover bg-center flex flex-col justify-end"
+        className="h-[100vh] sm:h-[50vh] bg-cover bg-center flex flex-col justify-end"
         style={{
           backgroundImage: `url('https://cdn.sanity.io/images/u8qx4arf/production/5439c849afbfa3fe71b2ebb9d65e2134fe2a6588-2560x1305.png')`,
         }}

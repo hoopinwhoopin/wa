@@ -42,7 +42,7 @@ function FeaturedCollection() {
                   {" "}
                   <button
                     type="button"
-                    className="border-yellow-300 border-2 h-8 w-[150px]  rounded-sm   hover:text-black hover:bg-yellow-300 hover:border-black transition-all ease-in duration-300"
+                    className="border-yellow-300 border-2 h-8 w-[150px]  rounded-lg   hover:text-black hover:bg-yellow-300 hover:border-black transition-all ease-in duration-300"
                   >
                     more about us
                   </button>

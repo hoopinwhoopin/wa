@@ -158,7 +158,7 @@ function NavBarSticky(props) {
 
       {/* small screen */}
 
-      <div className=" flex flex-col w-screen justify-between overflow-hidden">
+      <div className=" flex flex-col w-screen justify-between overflow-hidden ">
         {/* <button
           type="button"
           className=" flex flex-row bg-[#ffca00] h-[34px] p-3 w-[145px] rounded text-black cursor-pointer fixed right-5 top-5 overflow-hidden  hover:text-yellow-300 hover:bg-black hover:border-black transition-all ease-in duration-300"
@@ -185,8 +185,8 @@ function NavBarSticky(props) {
           </div>
         </button> */}
 
-        <button type = "button" className=" flex flex-row bg-[#ffca00] h-[34px] p-2 w-[140px] rounded text-black cursor-pointer fixed right-5 top-5 overflow-hidden  hover:text-yellow-300 hover:bg-black hover:border-black transition-all ease-in duration-300">
-          <span className="mr-2 Boldy flex items-center justify-center">
+        <button type = "button" className=" flex flex-row bg-[#ffca00] h-[34px] p-2 w-[140px] rounded text-black cursor-pointer fixed right-5 top-5 overflow-hidden  hover:text-yellow-300 hover:bg-black hover:border-black transition-all ease-in duration-300 pb-2">
+          <span className="mr-2 Boldy flex items-center justify-center pb-2">
             GET{" "}
           </span>
           <div
