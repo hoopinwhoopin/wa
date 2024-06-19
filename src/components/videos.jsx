@@ -21,7 +21,7 @@ function Videos() {
         <div className="flex flex-row ml-[20%] ">
           <span className="Actonia text-white mb-auto   text-4xl">through</span>
           <span className="text-[#ffca00] ml-2 Boldy text-5xl">Videos</span>
-          <img src={downarrow} alt="" className="w-[4vh] ml-1 mt-5" />
+          <img src={downarrow} alt="" className="w-[3vh] ml-1 mt-5" />
         </div>
       </div>
       <SlideShow

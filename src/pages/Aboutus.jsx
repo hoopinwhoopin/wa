@@ -24,9 +24,9 @@ function Aboutus() {
       <div className="bg-[#D8CAB1] flex sm:flex-row flex-col justify-center">
         <div className="flex flex-col sm:flex-row sm:w-[60%] w-full mt-20">
           <div className="flex flex-col m-5">
-            <p className="Actonia lg:text-5xl text-3xl-mb-4">our</p>
+            <p className="Actonia text-#1C1C1C text-5xl sm:text-4xl">our</p>
             <p className="uppercase text-black text-4xl Boldy">Flashbakc</p>
-
+          
             <p className="Courier  text-[#4A4A4A]">
               <br />
               Hi! Welcome to Flashbakc Studios. Narrow roads, winding lanes,

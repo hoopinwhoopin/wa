@@ -27,12 +27,12 @@ function Footer() {
           <div className="w-[60px]">
             <img
               src="https://cdn.sanity.io/images/u8qx4arf/production/272ca9b7e96fc5ac962b9cbb5d0e4ecbc6d9ff47-74x89.png"
-              className=" w-[57px] pt-[60px] sm:mb-0 "
+              className=" w-[57px] pt-[60px] sm:mb-0 pr-0"
               alt="Quote"
             />
             <div className="flex flex-row justify-between text-white mt-2">
-              <FacebookOutlined />
-              <Instagram />
+              <img className="pr-1" src = "https://cdn.sanity.io/images/u8qx4arf/production/3945544b8fe6cd8ad4dd8a453911fba78baff95c-32x32.svg"/>
+              <img className="pr-1" src = "https://cdn.sanity.io/images/u8qx4arf/production/1fa83b004e203f6454bd2461dd0bdcdce5b06aad-32x32.svg"/>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ function Footer() {
         <div className="text-white relative cursor-pointer -right-10 hidden sm:flex" >
         <a
               href="#top"
-              onclick='window.scrollTo({top: 0, behavior: "smooth"});'
+              onClick='window.scrollTo({top: 0, behavior: "smooth"});'
             >
           <ArrowCircleUpOutlinedIcon />
           </a>
@@ -95,7 +95,7 @@ function Footer() {
             <span className="">Copyright</span>
           </div>
           <div className=" Courier flex sm:mt-0 mt-10 flex-row items-center">
-            <span className="mr-2 ">
+            <span className="mr-8">
               Designed & developed with intention by
             </span>
             <a

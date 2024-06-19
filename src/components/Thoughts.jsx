@@ -9,11 +9,11 @@ function Thoughts() {
           <div className=" h-[55vh] flex-1 flex flex-col flex-nowrap z-30 w-[] pb-10 items-center">
             <div className=" w-full flex flex-col ">
               <div className="flex flex-row sm:pl-[10vh] w-min justify-self-start">
-                <p className="Actonia sm:text-5xl text-white"> our </p>
+                <p className="Actonia sm:text-5xl text-white pr-2"> our </p>
                 <span className="text-nowrap  Boldy">HAPPY COUPLES</span>
               </div>
               <div className="flex flex-row sm:ml-20 justify-self-end  w-min ml-[10%]">
-                <p className="Actonia sm:text-5xl mb-auto sm:pl-[20vh]">
+                <p className="Actonia sm:text-5xl mb-auto sm:pl-[20vh] pr-2">
                   {" "}
                   and{" "}
                 </p>{" "}

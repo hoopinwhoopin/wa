@@ -30,7 +30,7 @@ function Slider() {
       </div>
       <div className="flex sm:flex-row justify-end flex-col mr-[15%]">
         <div className="flex flex-row text-4xl ml-2 pb-10">
-          <img src={uparrow} alt="" className="w-[4vh] ml-10" />{" "}
+          <img src={uparrow} alt="" className="w-[3vh] ml-10" />{" "}
           <span className="Actonia text-black mb-auto mr-2 text-4xl sm:text-">
             through
           </span>
@@ -40,7 +40,7 @@ function Slider() {
           <NavLink to="/photostories">
             <button
               type="button"
-              className="border-yellow-300 border-2 px-2  rounded-sm   hover:text-black hover:bg-yellow-300 hover:border-black transition-all ease-in duration-300"
+              className="border-yellow-300 border-2 px-2  rounded-sm   hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
             >
               see more stories
             </button>

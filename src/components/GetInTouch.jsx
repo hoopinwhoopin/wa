@@ -82,7 +82,9 @@ function GetInTouch() {
               <input type="text" placeholder="Event Dates*" className=" Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5"/>
             </div>
        
-            <button className="border-[2px] border-black text-black p-3 rounded uppercase text-sm mb-20" type="button">Submit</button>
+            <button className="border-[1px] Boldy border-black text-black p-3 rounded uppercase text-sm mb-20" type="button">
+              <img src = "https://cdn.sanity.io/images/u8qx4arf/production/ba8d8f59622f4d3229f813b582c5f554356c3a75-85x17.svg"/>
+            </button>
         
           </div>
       </div>
