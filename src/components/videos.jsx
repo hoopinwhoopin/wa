@@ -7,6 +7,7 @@ import downarrow from "../assets/images/downarrow.svg";
 import useFetchData from "../customHooks/useFetchData";
 
 import SlideShow from "./SlideShow";
+import SlideShowVideoStories from "./SlideShowVideoStories";
 
 function Videos() {
   const { videoStoriesData, fetchVideoStories } = useFetchData();
@@ -24,7 +25,7 @@ function Videos() {
           <img src={downarrow} alt="" className="w-[3vh] ml-1 mt-5" />
         </div>
       </div>
-      <SlideShow
+      <SlideShowVideoStories
         photoStoriesData={videoStoriesData}
         className="text-[#D8CAB1]"
       />
