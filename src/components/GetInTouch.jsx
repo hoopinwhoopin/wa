@@ -25,7 +25,7 @@ function GetInTouch() {
         <div className=" Courier justify-start flex flex-col items-start mt-5">
           <span>What services are you looking for?</span>
 
-          <div className="w-full justify-between flex sm:flex-row flex-wrap ">
+          <div className="w-full justify-between flex sm:flex-row flex-wrap text-[#A18E6A]">
             <div>
               <input type="checkbox" className=" Courier rounded-full" /> Photos
             </div>
@@ -42,8 +42,8 @@ function GetInTouch() {
               <input type="checkbox" className=" Courier rounded-full" /> Question
             </div>
           </div>
-          <div className="w-full mt-10">
-            <div className="w-full">
+          <div className="w-full mt-10  text-[#A18E6A]">
+            <div className="w-full  text-[#A18E6A]">
               <input
                 type="text"
                 placeholder="Your Name*"
@@ -73,7 +73,7 @@ function GetInTouch() {
                 placeholder="Describe the details of the wedding- event schedule, venues.*"
                 className="Courier w-full bg-[#EDECE7] border-none p-5 rounded h-[200px]"
               />
-              <div className=" Courier w-full flex justify-start">
+              <div className=" Courier w-full flex justify-startc text-[#A18E6A]">
                 <span>
                   please describe in length the details of the wedding
                 </span>
@@ -82,7 +82,7 @@ function GetInTouch() {
               <input type="text" placeholder="Event Dates*" className=" Courier w-full bg-[#EDECE7] border-none p-5 rounded mb-5"/>
             </div>
        
-            <button className="border-[1px] Boldy border-black text-black p-3 rounded uppercase text-sm mb-20" type="button">
+            <button className="border-[2px] border-black text-black p-3 rounded uppercase text-sm mb-20" type="button">
               <img src = "https://cdn.sanity.io/images/u8qx4arf/production/ba8d8f59622f4d3229f813b582c5f554356c3a75-85x17.svg"/>
             </button>
         

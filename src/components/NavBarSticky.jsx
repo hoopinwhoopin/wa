@@ -239,7 +239,7 @@ function NavBarSticky(props) {
               </Typography>
               <ModalClose id="close-icon" sx={{ position: "initial" }} />
             </Box>
-            <Input
+            {/* <Input
               size="sm"
               placeholder="Search"
               variant="plain"
@@ -271,7 +271,7 @@ function NavBarSticky(props) {
                   transform: "scaleX(1)",
                 },
               }}
-            />
+            /> */}
             <List
               size="lg"
               component="nav"
@@ -281,11 +281,67 @@ function NavBarSticky(props) {
                 "& > div": { justifyContent: "center" },
               }}
             >
-              <ListItemButton sx={{ fontWeight: "lg" }}>Stories</ListItemButton>
-              <ListItemButton>About Us</ListItemButton>
-              <ListItemButton>FAQs</ListItemButton>
-              <ListItemButton>Testimonials</ListItemButton>
-              <ListItemButton>Blogs</ListItemButton>
+              
+              <ListItemButton sx={{ fontWeight: "lg" }}>
+              <Dropdown
+              label="Stories"
+              color="transperant"
+              theme={{ floating: { target: "w-full" } }}
+            >
+              <Dropdown.Item>
+                <NavLink to="/photostories" className="Courier">
+                  Photos
+                </NavLink>{" "}
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <NavLink to="/videostories" className=" Courier">
+                  Videos
+                </NavLink>{" "}
+              </Dropdown.Item>
+            </Dropdown>
+                </ListItemButton>
+              <ListItemButton>
+              <ul className="nav__links text-black Courier">
+              <NavLink
+                to="/aboutus"
+                className=" Courier text-sm whitespace-nowrap"
+              >
+                About Us
+                
+              </NavLink>
+              </ul>
+              </ListItemButton>
+              <ListItemButton>
+              <a href="/aboutus#questions" className=" Courier text-sm ">
+                FAQs
+              </a>
+              </ListItemButton>
+              <ListItemButton> <Dropdown
+              label="More"
+              color="transperant"
+              theme={{ floating: { target: "w-full" } }}
+            >
+              <Dropdown.Item>
+                <NavLink
+                  to="/testimonials"
+                  className="Courier text-sm
+              "
+                >
+                  Testimonials
+                </NavLink>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <NavLink
+                  to="/blogs"
+                  className="Courier text-sm
+              "
+                >
+                  Blog
+                </NavLink>{" "}
+              </Dropdown.Item>
+            </Dropdown>
+            </ListItemButton>
+             
             </List>
           </Drawer>
         </div>
