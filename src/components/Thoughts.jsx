@@ -4,7 +4,7 @@ import "../App.css";
 function Thoughts() {
   return (
     <div className="">
-      <div className="w-full justify-center flex flex-col items-center bg-[#D8CAB1] pt-20 ">
+      <div className="w-full justify-center flex flex-col items-center bg-[#D8CAB1] bg-dustTexture pt-20 ">
         <div className="sm:text-5xl text-3xl text-black Boldy flex-col  flex sm:flex-row w-[80%] mb-20">
           <div className=" h-[55vh] flex-1 flex flex-col flex-nowrap z-30 w-[] pb-10 items-center">
             <div className=" w-full flex flex-col ">
@@ -35,15 +35,18 @@ function Thoughts() {
                 Venenatis lectus magna fringilla urna porttitor. Risus quis
                 varius quam quisque id diam vel quam elementum.
               </p>
-            <div className=" w-full text-lg  border cursor-pointer pb-20  rounded-lg Boldy uppercase text-black ">
-              <div className=" border w-fit h-min p-3 rounded-lg mt-10">
-                <NavLink to="/testimonials" className="">
-                < button type="button" className="border-black border-[1px]  px-2  rounded-lg   hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300">read more</button>
-
-                  
-                </NavLink>
+              <div className=" w-full text-2xl  border cursor-pointer pb-20  rounded-lg Boldy uppercase text-black ">
+                <div className=" border w-fit h-min p-3 rounded-lg mt-10">
+                  <NavLink to="/testimonials" className="">
+                    <button
+                      type="button"
+                      className="border-black border-[1px]  px-2  rounded-lg   hover:text-black hover:bg-yellow-300 hover:border-yellow-300 transition-all ease-in duration-300"
+                    >
+                      read more
+                    </button>
+                  </NavLink>
+                </div>
               </div>
-            </div>
             </div>
           </div>
           <div className=" bg-green-500 w-full -ml-[5%]">
@@ -61,7 +64,7 @@ function Thoughts() {
           <span className="text-[#FFCA00] Boldy sm:text-5xl">AWARDS</span>
           <span className="Actonia sm:text-5xl">&</span>{" "}
           <span className=" Boldy sm:lg:text-5xl text-3xltext-[#1c1c1c]">
-              FEATURES
+            FEATURES
           </span>
         </div>
         <div className="flex sm:flex-row flex-col justify-center items-center gap-10  pb-20  ">

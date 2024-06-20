@@ -3,12 +3,12 @@ import PropTypes from "prop-types";
 function VideoStoryTile({ name, location, img, link }) {
   return (
     <a href={link ? link : ""} target="_blank">
-      <div className="sm:m-3  p-3 sm:p-3">
+      <div className="  p-3 sm:p-3">
         {img?.includes("mp4") ? (
           <video
             src={img}
             alt="placeholder"
-            className="min-w-[300px] h-[400px] object-cover"
+            className="min-w-[540px] max-w-screen h-[300px] object-cover"
             autoPlay
             muted
             loop
@@ -17,7 +17,7 @@ function VideoStoryTile({ name, location, img, link }) {
           <img
             src={img !== "" ? img : "https://via.placeholder.com/280X400"}
             alt="placeholder"
-            className=" min-w-[300px] h-[400px] object-cover"
+            className="w-[540px]"
           />
         )}
         <div className="font-bold  text-[#D8CAB1] uppercase Boldy text-lg">

@@ -21,6 +21,8 @@ export default {
           "url('https://cdn.sanity.io/images/u8qx4arf/production/d718ac34b04dcb168e25501072a0ca5aa1baa1d8-5120x2194.png')",
           "mywed" : 
           "url('src/assets/images/mywed.png')",
+          dustTexture:
+          "url('src/assets/images/aboutus/dust scratches light@2x.png')"
           
       },
       theme: {
