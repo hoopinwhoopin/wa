@@ -76,7 +76,7 @@ function NavBarSticky(props) {
 
   return (
     <div className="w-full">
-      <motion.nav className=" hidden w-[100%] sm:flex items-center px-5  absolute  ">
+      <motion.nav className=" hidden w-[100%] md:flex items-center px-5  absolute  ">
         <script src="../path/to/flowbite/dist/flowbite.min.js" />{" "}
         <button
           type="button"
@@ -209,7 +209,7 @@ function NavBarSticky(props) {
           </div>
         </button>
 
-        <div className=" sm:hidden absolute bg-none ">
+        <div className=" md:hidden absolute bg-none ">
           <IconButton
             variant="outlined"
             color="neutral"
